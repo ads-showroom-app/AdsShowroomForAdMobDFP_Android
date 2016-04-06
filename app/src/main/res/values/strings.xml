@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AdMobShowroom</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_view"></string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ad_view">Show Ad</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_category_id">Ad Unit Settings</string>
+    <string name="pref_category_dfp">DFP Settings</string>
+    <string name="pref_is_default_id">Using Default ID</string>
+    <string name="pref_is_default_id_summ">Check if you do not have your own ID.</string>
+    <string name="pref_custom_id">Custom Ad Unit ID</string>
+    <string name="pref_custom_id_summ">Put your AdMob Publisher ID or DFP Ad Unit ID.</string>
+    <string name="pref_is_dfp">DFP Inventory</string>
+    <string name="pref_is_dfp_summ">Check when using DFP Ad Unit ID.</string>
+    <string name="pref_custom_targeting">Custom Targeting</string>
+    <string name="pref_custom_targeting_summ">Put key-value pairs. (e.g. k1=v1, k2=v2)</string>
+    <string name="pref_custom_size">Custom Ad Size</string>
+    <string name="pref_custom_size_summ"> Put the ad size. (e.g. 300x300)</string>
+    <string name="b320x50">320x50</string>
+    <string name="b300x250">300x250</string>
+    <string name="b468x60">468x60</string>
+    <string name="b728x90">728x90</string>
+    <string name="SmartBanner">Smart Banner</string>
+    <string name="Interstitial">Interstitial</string>
+    <string name="CustomSize">Custom Size</string>
+
+</resources>

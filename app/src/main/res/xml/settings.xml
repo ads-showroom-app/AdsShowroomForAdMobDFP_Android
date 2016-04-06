@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_category_id"
+        android:title="@string/pref_category_id">
+
+        <CheckBoxPreference
+            android:key="pref_is_default_id"
+            android:title="@string/pref_is_default_id"
+            android:summary="@string/pref_is_default_id_summ"
+            android:defaultValue="true" />
+
+        <EditTextPreference
+            android:key="pref_custom_id"
+            android:title="@string/pref_custom_id"
+            android:summary="@string/pref_custom_id_summ" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_category_dfp"
+        android:title="@string/pref_category_dfp">
+        <CheckBoxPreference
+            android:key="pref_is_dfp"
+            android:title="@string/pref_is_dfp"
+            android:summary="@string/pref_is_dfp_summ"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="pref_custom_targeting"
+            android:title="@string/pref_custom_targeting"
+            android:summary="@string/pref_custom_targeting_summ"
+            />
+        <EditTextPreference
+            android:key="pref_custom_size"
+            android:title="@string/pref_custom_size"
+            android:summary="@string/pref_custom_size_summ"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
